@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztráció</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="frame">
+        <h1>Regisztráció</h1>
+        <form action="index.html" method="post" onsubmit="return formValidate();">
+            <label>Felhasználónév</label>
+            <input type="text" id="username">
+            <label>Email cím</label>
+            <input type="text" id="email">
+            <label>Jelszó</label>
+            <input type="password" id="pwd1">
+            <label>Jelszó megerősítő</label>
+            <input type="password" id="pwd2">
+            <button type="submit">Regisztráció</button>
+        </form>
+    </div>
+
+    <div id="errorBox">
+        <h4>Hiba!</h4>
+        <ul id="errorList"></ul>
+        <button id="errorBoxClose">Bezár</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
