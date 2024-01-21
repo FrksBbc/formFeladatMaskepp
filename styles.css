@@ -22,7 +22,6 @@ input {
     margin-bottom: 20px;
     font-size: 20px;
     outline: none;
-    border: 1px solid black;
     border: 4px;
     border-radius: 6px;
     padding: 6px;
@@ -51,6 +50,8 @@ button:hover {
     border-radius: 4px;
     position: fixed;
     display: none;
+    top: 26px;
+    left: calc(50% - 240px);
 }
 
 #errorBox h4 {
@@ -65,5 +66,5 @@ button:hover {
 }
 
 .redBorder {
-    border-color: red;
+    border: 2px solid red;
 }
